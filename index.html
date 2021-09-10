@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style\style.css">
+
+    <!--responsividade-->
+    <link rel="stylesheet" href="style/responsive.css">
+
+    <!--owl css-->
+    <link rel="stylesheet" href="style\owl\owl.carousel.min.css">
+    
+
+    <title>GAMEFLIX</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            
+            <img class="logo" src="img\logogameflix.svg">
+            
+            <nav class="menu">
+                <a href="#">INÍCIO</a>
+                <select class="categorias">
+                    <option class="categorias" >CATEGORIAS</option>
+                    <option class="categorias"href="#">AÇÃO</option>
+                    <option class="categorias"href="#">FPS</option>
+                    <option class="categorias"href="#">RPG</option>
+                    <option class="categorias"href="#">MMO</option>
+                    <option class="categorias"href="#">LUTA</option>
+                    <option class="categorias"href="#">ESTRATÉGIA</option>
+                    <option class="categorias"href="#">AVENTURA</option>
+
+                </select>    
+                <a href="#">RECENTES</a>
+                <a href="#">FAVORITOS</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container-video">
+            
+            <video class="video" onmouseover="play()" onmouseout="load()" poster="img\top-banner.jpg">
+                <source src="vid/gow4.mp4" type="video/mp4" >
+            </video>
+            <div class="gradiente"></div>
+        </div>
+        <div class="jogo-principal">
+            <div class="container">
+                <img class="titulo" src="img\gowlogo.png" alt="Logo GOW4">
+                <p class="descricao">Muitos anos se passaram desde que Kratos teve sua vingança contra os deuses do Olimpo, e agora ele vive com seu filho Atreus em Midgard.</p>
+                <div class="botoes">
+                    <button role="button" class="botao">
+                        <i class="fas fa-play"></i>
+                        ASSISTIR AGORA
+                    </button>
+                    <button role="button" class="botao">
+                        <i class="fas fa-info-circle"></i>
+                        MAIS INFORMAÇÕES
+                    </button>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <div class="carrosel-jogos" >
+        <div class="sessao">
+            <h4>Game of the Year</h4>
+        </div>
+        
+        <div class="owl-carousel owl-theme">
+                
+            <video class="item"   onmouseover="play()" onmouseout="load()" poster="img\zelda_banner.jpg" >
+                <source src="vid\zelda.mp4" type="video/mp4" alt="Legend of Zelda: Breath of the Wild" >
+                
+            </video>
+
+            <video class="item"  onmouseover="play()" onmouseout="load()" poster="img\dragonage_banner.jpg" >
+                <source src="vid\dragonage.mp4" type="video/mp4" alt="Dragon Age: Inquisition" >
+            </video>
+            
+            <video class="item"  onmouseover="play()" onmouseout="load()" poster="img\lastofus2_banner.jpg" >
+                <source src="vid\lastofus.mp4" type="video/mp4" alt="The Last of Us: Part II" >
+            </video>
+
+            <video class="item" onmouseover="play()" onmouseout="load()" poster="img\overwatch_banner.jpg" >
+                <source src="vid\overwatch.mp4" type="video/mp4" alt="Overwatch" >
+            </video>
+
+            <video class="item"  onmouseover="play()" onmouseout="load()" poster="img\Sekiro_banner2.jpg" >
+                <source src="vid\sekiro.mp4" type="video/mp4" alt="Sekiro: Shadows Die Twice">
+            </video>
+
+            <video class="item"  onmouseover="play()" onmouseout="load()" poster="img\thewitcher_banner.jpg" >
+                <source src="vid\witcher.mp4" type="video/mp4" alt="The Witcher 3: Wild Hunt">
+            </video>
+
+            <video class="item"  onmouseover="play()" onmouseout="load()" poster="img\fallout_banner.jpeg" >
+                <source src="vid\fallout.mp4" type="video/mp4" alt="Fallout 4" >
+            </video>
+
+            <video class="item"  onmouseover="play()" onmouseout="load()" poster="img\gow4_banner.jpg" >
+                <source src="vid\gow4.mp4" type="video/mp4" alt="God of War 4" >
+            </video>
+            
+        </div>
+    </div>    
+    
+    <div class="carrosel-jogos" >
+        <div class="sessao">
+            <h4>Recentes</h4>
+        </div>
+        
+        <div class="owl-carousel owl-theme">
+                
+            <video class="item"  onmouseover="play()" onmouseout="load()" poster="img\assassins_banner.jpg" >
+                <source src="vid\assassins.mp4" 
+                type="video/mp4" alt="Assassins Creed: Valhalla" >
+            </video>
+
+            <video class="item"  onmouseover="play()" onmouseout="load()" poster="img\ghosttsushima_banner.jpg" >
+                <source src="vid\ghost.mp4" 
+                type="video/mp4" alt="Ghost of Tsushima">
+            </video>
+            
+            <video class="item"  onmouseover="play()" onmouseout="load()" poster="img\gtav_banner.jpg" >
+                <source src="vid\gtav.mp4" 
+                type="video/mp4" alt="GTA V">
+            </video>
+
+            <video class="item"  onmouseover="play()" onmouseout="load()" poster="img\minecraft_banner.jpg" >
+                <source src="vid\minecraft.mp4" 
+                type="video/mp4" alt="Minecraft">
+            </video>
+
+            <video class="item"  onmouseover="play()" onmouseout="load()" poster="img\ori_banner.jpg" >
+                <source src="vid\ori.mp4" 
+                type="video/mp4" alt="Ori and the Wild Wisp">
+            </video>
+
+            <video class="item"  onmouseover="play()" onmouseout="load()" poster="img\rayman_banner.jpg" >
+                <source src="vid\rayman.mp4" 
+                type="video/mp4" alt="Rayman: Legends" >
+            </video>
+
+            <video class="item" onmouseover="play()" onmouseout="load()" poster="img\skyrim_banner.jpg" >
+                <source src="vid\skyrim.mp4" 
+                type="video/mp4" alt="Elder Scroll V: Skyrim" >
+            </video>
+
+            <video class="item" onmouseover="play()" onmouseout="load()" poster="img\supermario_banner.jpg" >
+                <source src="vid\mario.mp4" 
+                type="video/mp4" alt="New Super Mario Bros. Wii">
+            </video>
+            <video class="item"  onmouseover="play()" onmouseout="load()" poster="img\thewalkindead_banner.jpg" >
+                <source src="vid\walkindead.mp4" 
+                type="video/mp4" alt="The Walking Dead: The Game" >
+            </video>
+            <video class="item"  onmouseover="play()" onmouseout="load()" poster="img\horizon_banner.jpeg" >
+                <source src="vid\horizon.mp4" 
+                type="video/mp4" alt="Horizon: Zero Dawn">
+            </video>
+            <video class="item"  onmouseover="play()" onmouseout="load()" poster="img\reddead_banner.jpg" >
+                <source src="vid\reddead2_2.mp4" 
+                type="video/mp4" alt="Red Dead Redemption 2">
+            </video>
+            
+        </div>
+    </div>
+
+    
+    <script src="https://kit.fontawesome.com/ee33819c9f.js" crossorigin="anonymous"></script>
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/owl/setup.js"></script>
+    
+
+</body>
+</html>
